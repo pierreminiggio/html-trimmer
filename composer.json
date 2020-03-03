@@ -1,0 +1,31 @@
+{
+    "name": "pierreminiggio/html-trimmer",
+    "description": "Trim HTML",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PierreMiniggio\\HTMLTrimmer\\": "src/",
+            "PierreMiniggio\\HTMLTrimmerTest\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "paquettg/php-html-parser": "^2.2",
+        "phpunit/phpunit": "^7"
+    },
+    "scripts": {
+        "test": "bash vendor/bin/phpunit tests/"
+    },
+    "scripts-descriptions": {
+        "test": "Run all tests!"
+    }
+}
